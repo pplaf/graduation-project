@@ -1,0 +1,42 @@
+# 敏感配置
+.env
+src/config.py
+
+# 数据文件
+data/raw/
+data/audio/
+data/processed/
+data/results/
+
+# 输出
+output/
+logs/
+automation-logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# 音频/视频文件
+*.mp3
+*.wav
+*.mp4
+*.flac
+
+# 个人文件/附件
+关注的up.md
+附件/
+附件.zip
+task.json
+progress.txt
+init.sh
+CLAUDE.md
+
+# OS
+.DS_Store
+Thumbs.db
+*.zip
